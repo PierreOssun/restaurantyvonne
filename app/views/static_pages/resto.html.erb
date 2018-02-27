@@ -1,0 +1,54 @@
+    <div id="centraldiv">
+      <h1>Resto trop bien</h1>
+    <div id="centraltable">
+      <ul id="listeapuces">
+        <li><h3>Presentation</h3>
+        </li>
+        <li><h3>Menu</h3>
+        </li>
+        <li><h3>Lorem</h3>
+        </li>
+      </ul>
+      <p id="bruceli">
+          Chez Yvolinne est un célèbre restaurant de la ville de Strasbourg, haut lieu de la gastronomie locale où, selon Gilles Pudlowski, « la rencontre des écrivains et des artistes parisiens en goguette dans la ville tient du rituel ». Quoique fondé dès 1873, l'établissement doit son nom à Yvonne Haller qui l'a géré de 1956 à 2001.
+          Il est alors acquis par Jean-Louis de Valmigère qui le transmet à ses enfants dix ans plus tard.
+      </p>
+      <p id="jackli">
+        Harengs à l'ancienne 12,90 €<br/>
+        Presskopf maison (fromage de tête) à l'alsacienne 12,90 €<br/>
+        Feuilleté de munster 12,90 €<br/>
+        Maennerstolz (saucisse fumée porc-boeuf) avec choucroute ou<br/>
+        salade de pommes de terre 15,50 €<br/>
+        Coq au Riesling, spaëtzle 17,90 €<br/>
+        Choucroute garnie 18,90 €<br/>
+      </p>
+      <p id="jackma">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel tellus eget purus facilisis feugiat eu sed lorem. Quisque condimentum eros sit amet molestie posuere. Cras vel varius tellus, ut pulvinar nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rutrum enim accumsan leo dapibus, ac pharetra urna tincidunt. Nunc sollicitudin finibus nisl, nec eleifend diam elementum vel. Aliquam eget volutpat lorem, non semper nunc. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin blandit, turpis vitae efficitur efficitur, urna est tempus nisl, eu consectetur purus lacus a risus. Vestibulum vel quam rutrum, cursus odio commodo, maximus arcu. Praesent dictum velit est, a dignissim elit faucibus at. Aenean id mattis nibh, vitae hendrerit risus.
+      </p>
+    </div>
+    </div>
+    <script>
+
+      $('p:eq(1)').hide();
+      $('p:eq(2)').hide();
+
+
+    $("li:eq(0)").click(function(){
+      $('p:eq(0)').show();
+      $('p:eq(1)').hide();
+      $('p:eq(2)').hide();
+    });
+
+    $("li:eq(1)").click(function(){
+      $('p:eq(0)').hide();
+      $('p:eq(1)').show();
+      $('p:eq(2)').hide();
+    });
+
+    $("li:eq(2)").click(function(){
+      $('p:eq(0)').hide();
+      $('p:eq(1)').hide();
+      $('p:eq(2)').show();
+    });
+
+    </script>

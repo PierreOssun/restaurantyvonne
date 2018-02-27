@@ -1,0 +1,89 @@
+// Place all the styles related to the static_pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#centraldiv {
+  display: flex;
+  padding: 10px;
+  margin-right: 15px;
+  box-shadow: 5px 5px 5px silver;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'CanalLightRomain', sans-serif;
+}
+
+#centraltable {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 1000px;
+}
+
+#listeapuces {
+  display: flex;
+  flex-direction: row;
+ justify-content: space-around ;
+}
+
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+ p {
+   widht: 100%;
+   text-align: justify;
+   padding: 15px;
+  }
+
+#centraldivphoto{
+  display: flex;
+  justify-content: space-around;
+}
+
+#autrediv {
+  display: flex;
+  flex-direction: row;
+}
+
+#cadrephoto {
+  display: flex;
+  align-items: center;
+  height: 500px;
+  width: 600px;
+}
+
+#leftarrow, #rightarrow {
+  display: flex;
+  align-items: center;
+}
+
+#cadrephoto div:hover {
+
+}
+
+.btn1 {
+   width: 30px;
+   height: 30px;
+}
+
+.btn{
+   width: 20px;
+}
+.btn1:hover {
+  box-shadow: 0 0 2px 1px silver;
+}
+
+.image1 {
+  display: inline-block;
+  max-height: 100%;
+max-width: 100%;
+}

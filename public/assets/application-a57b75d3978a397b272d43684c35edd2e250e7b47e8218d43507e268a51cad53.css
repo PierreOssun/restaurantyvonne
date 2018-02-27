@@ -1,0 +1,62 @@
+/* line 5, /home/sdx/Documents/lab/jquerytabulation/app/assets/stylesheets/static_pages.scss */
+body {
+  height: 100%;
+  width: 100%;
+}
+
+/* line 10, /home/sdx/Documents/lab/jquerytabulation/app/assets/stylesheets/static_pages.scss */
+#centraldiv {
+  display: flex;
+  padding: 10px;
+  margin-right: 15px;
+  box-shadow: 5px 5px 5px silver;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  flex-direction: column;
+  text-align: center;
+  font-family: 'CanalLightRomain', sans-serif;
+}
+
+/* line 22, /home/sdx/Documents/lab/jquerytabulation/app/assets/stylesheets/static_pages.scss */
+#centraltable {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* line 27, /home/sdx/Documents/lab/jquerytabulation/app/assets/stylesheets/static_pages.scss */
+#listeapuces {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* line 33, /home/sdx/Documents/lab/jquerytabulation/app/assets/stylesheets/static_pages.scss */
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+/* line 40, /home/sdx/Documents/lab/jquerytabulation/app/assets/stylesheets/static_pages.scss */
+p {
+  widht: 100%;
+  text-align: justify;
+  padding: 15px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
